@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/4026a653d4.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <!--bootstrap downloaded from npm -v 5.3.1-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+   <link rel="stylesheet" href="styles.css">
+    <title>Random Quote Machine</title>
+</head>
+<body class="ky-flex-center">
+   <div id="quote-box">
+    <div class="quote-container">
+
+        <!--author and quote are relatives-->
+        <div class="quote-left">
+        <div class="quote">
+            <h2 id="text"></h2>
+            
+        </div>
+            <div class="author-container">
+                <p id="author"></p>
+            </div>
+        </div>
+
+            <div class="quote-right">
+                <div class="social">
+                    <a href="twitter.com/intent/tweet" target="_blank" id="tweet-quote" ><i class="fa-brands fa-twitter tweet"></i></a>
+                    <a href="https://github.com/KylesTech95" target="_blank"><i class="fa-brands fa-github-alt git"></i></a>
+                </div>
+                <div class="new-quote-div">
+                    <button type="submit" onclick="change_state()" id="new-quote" class="mybtn btn">New Quote</button>
+                </div>  
+            </div>
+         
+    </div>
+    <div class="mouse_position">
+        <p class="mousepos"></p>
+    </div>
+    <div class="trans-button">
+        <button onclick="press()" class="toggle shadow-sm">click me</button>
+    </div>
+   </div>
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="index.js"></script>
+</html>

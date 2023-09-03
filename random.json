@@ -1,0 +1,36 @@
+{
+"content": 
+[
+    {
+        "id":0,
+        "quote":"You are straight fire.Well, minus the “straight” part.",
+        "author":"Joey Benevento"
+    },
+    {
+        "id":1,
+        "quote":"Just a reminder that you’re exactly where you should be.",
+        "author":"Melissa Woo"
+    },
+    {
+        "id":2,
+        "quote":"I am no longer accepting the things I cannot change. I am changing the things I cannot accept",
+        "author":"Angela Davis"
+    },
+    {
+        "id":3,
+        "quote":"We will not win our rights by staying quietly in our closets.",
+        "author":"Harvey Milk"
+    },
+    {
+        "id":4,
+        "quote":"Accept no one’s definition of your life, define yourself.",
+        "author":"Harvey Fierstein"
+    },
+    {
+        "id":5,
+        "quote":"We need, in every community, a group of angelic troublemakers.",
+        "author":"Bayard Rustin"
+    }
+
+]
+}

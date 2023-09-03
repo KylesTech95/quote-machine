@@ -1,0 +1,180 @@
+:root{
+    --color0: rgb(223, 207, 71);
+    --color0-dim: rgb(145, 135, 46);
+    --color1: rgb(4, 174, 4);
+    --color1-dim:rgb(0, 93, 0);
+    --color2: hotpink;
+    --color2-dim: rgb(146, 61, 103);
+    --color3:rgb(4, 4, 173);
+    --color3-dim:navy;
+    --color4:orangered;
+    --color4-dim:rgb(190, 51, 0);
+    --color5: rgb(221, 1, 255);
+    --color5-dim: rgb(128, 0, 148);
+    --text-shadow-light: 0 0 4px .25px rgb(255, 255, 255);
+    --text-shadow-dark: 0 0 8px .15px rgb(35, 35, 35);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+html{
+    background: none;
+}
+/* ./node_modules/bootstrap/dist/css/bootstrap.css - .ky-flex-center
+    body{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: var(--color1);
+} */
+#quote-box{
+    max-width: 600px;
+    min-width: 600px;
+    margin: 0 2rem
+}
+.quote-container{
+    display: flex;
+    gap: 4em;
+    background: ghostwhite;
+     padding: 3rem 1.75rem;
+     border-radius: 4px;
+}
+div.quote-left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+    gap: 1.5rem;
+    
+}
+h2#text{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.author-container{
+    position: absolute;
+    top: 145px;
+    left: 25px;
+}
+p#author{
+    font-size: 25px;
+    font-weight: 400;
+    width: 250px;
+}
+.quote-right{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    align-items: end;
+}
+.social{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly
+}
+
+
+.tweet,
+.git {
+    color: #fff;
+    padding: .75rem;
+    background: var(--color1);
+    transform:scale(.75);
+    border-radius: 8px;
+    transition: .2s ease;
+}
+.social i{
+    font-size: 30px;
+    transition: .1s ease;
+    
+}
+.social i:hover{
+    transform: scale(.85);
+    transition: .1s ease;
+}
+
+.mybtn{
+    background: var(--color1);
+    border: none;
+    /* padding: 1rem; */
+    border-radius: 8px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: .75px;
+    transition: .2s ease;
+}
+
+
+.mouse_position{
+transition: .5s ease;
+    height: 0;
+    width: 0;
+    margin: 1rem auto 0;
+    background: #fff;
+    opacity:.85;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:end;
+    transition: 1s ease;
+    /*ky-flex, justify-end*/
+}
+.mousepos{
+    opacity: 0;
+    font-size: 0px;
+    transition: .75s;
+}
+.active-toggle{
+    margin: 1rem auto 0;
+    height: 100px;
+    width: 300px;
+    background: #fff;
+    opacity:.85;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:end;
+    transition: 1s ease;
+}
+.active-display{
+    text-align: center;
+    font-size: 45px;
+    opacity: 1;
+    transition: 1s ease;
+}
+div.trans-button{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.toggle{
+    padding: .5rem;
+    letter-spacing: .75px;
+    border-radius: 12px;
+    border: none;
+    transition: .3s ease;
+}
+.toggle:hover{
+    transition: .3s ease;
+background: rgb(220, 211, 211);
+}
+.toggle:active{
+    transform:scale(1.25);
+    transition-delay: -1s;
+    transition: .3s;
+}
